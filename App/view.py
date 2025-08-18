@@ -97,7 +97,8 @@ def load_books_tags(app):
     :type app: logic
     """
     # TODO: Mods de Est-1, Est-2 y Est-3 en el Lab 2
-    book_tags = logic.load_books_tags(app, "GoodReads/book_tags-small.csv")
+    book_tags = logic.load_books_tags(app, 
+                                      "GoodReads/book_tags-small.csv")
 
     return book_tags
 
