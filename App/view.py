@@ -98,8 +98,7 @@ def load_books_tags(app):
     """
     # TODO: Mods de Est-1, Est-2 y Est-3 en el Lab 2
     book_tags = logic.load_books_tags(app, "GoodReads/book_tags-small.csv")
-    first = first_book(app)
-    print("Primer libro cargado:\n" + str(first) + "\n")
+
     return book_tags
 
 def first_book(app):
@@ -108,6 +107,7 @@ def first_book(app):
     """
     # TODO: Mods de Est-1, Est-2 y Est-3 en el Lab 2
     first = logic.first_book(app)
+    print("Primer libro cargado:\n" + str(first) + "\n")
     return first
 
 
