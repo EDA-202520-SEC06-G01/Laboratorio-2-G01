@@ -181,7 +181,7 @@ def create_book_tag_list(catalog):
     """
     Esta funcion crea una lista vacia para booktags.
     """
-    # TODO: Mods de Est-1, Est-2 y Est-3 en el Lab 2
+        # TODO: Mods de Est-1, Est-2 y Est-3 en el Lab 2
     pass
 
 
